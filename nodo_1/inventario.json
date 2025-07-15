@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Botella de agua 1L",
+        "descripcion": "Agua mineral embotellada",
+        "cantidad": 10
+    },
+    {
+        "nombre": "Enlatados de atún",
+        "descripcion": "Pack de 3 latas de 170g",
+        "cantidad": 5
+    },
+    {
+        "nombre": "Arroz 1kg",
+        "descripcion": "Bolsa de arroz blanco",
+        "cantidad": 8
+    }
+]

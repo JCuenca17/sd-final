@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Papel higiénico x6",
+        "descripcion": "Pack de 6 rollos",
+        "cantidad": 4
+    },
+    {
+        "nombre": "Jabón líquido 500ml",
+        "descripcion": "Antibacterial para manos",
+        "cantidad": 7
+    },
+    {
+        "nombre": "Cepillo de dientes",
+        "descripcion": "Pack de 2 unidades",
+        "cantidad": 6
+    }
+]

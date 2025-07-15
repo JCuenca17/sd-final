@@ -1,0 +1,40 @@
+/* css/header.css */
+.main-header {
+    background-color: #0077cc;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-controls span {
+    font-weight: bold;
+}
+
+.header-controls button {
+    background-color: white;
+    color: #0077cc;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.header-controls button:hover {
+    background-color: #e6e6e6;
+}
