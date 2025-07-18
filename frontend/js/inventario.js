@@ -1,9 +1,9 @@
 // js/inventario.js
 
-// Configura tus nodos aquí (puedes agregar más fácilmente)
+// Aquí defines tus nodos con nombre y URL
 window.nodos = [
-    { nombre: "Proveedor A - Banco de Agua", url: "http://localhost:8000" },
-    { nombre: "Proveedor B - Banco de Papel", url: "http://localhost:8001" }
+    { nombre: "Proveedor A", url: "http://localhost:8000" },
+    { nombre: "Proveedor B", url: "http://localhost:8001" }
 ];
 
 async function cargar() {
@@ -24,9 +24,12 @@ async function cargar() {
                 const desc = document.createElement("p");
                 desc.textContent = prod.descripcion;
 
-                const nodoLabel = document.createElement("p");
-                nodoLabel.className = "nodo";
-                nodoLabel.textContent = nodo.nombre;
+                const proveedor = document.createElement("p");
+                proveedor.className = "nodo";
+                proveedor.textContent = `Proveedor: ${nodo.nombre}`;
+
+                const cantidad = document.createElement("p");
+                cantidad.textContent = `Cantidad disponible: ${prod.cantidad}`;
 
                 const cantidadInput = document.createElement("input");
                 cantidadInput.type = "number";
@@ -55,7 +58,8 @@ async function cargar() {
 
                 card.appendChild(nombre);
                 card.appendChild(desc);
-                card.appendChild(nodoLabel);
+                card.appendChild(proveedor);
+                card.appendChild(cantidad);
                 card.appendChild(acciones);
 
                 contenedor.appendChild(card);
