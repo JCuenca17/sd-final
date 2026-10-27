@@ -34,3 +34,5 @@ shared/            modelo Producto y conexión a SQLite (SQLAlchemy)
 frontend/          login, tienda, carrito y confirmación (HTML, CSS y JavaScript)
 iniciar.bat        levanta todo en Windows
 ```
+
+© 2025 José Luis Cuenca Gutiérrez. Todos los derechos reservados.
